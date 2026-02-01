@@ -65,11 +65,11 @@ The system implements **multiple feature comparison methods** with weighted comb
 
 | Single Image Retrieval | Batch Testing |
 |------------------------|---------------|
-| <img width="1182" height="769" alt="Single Image Retrieval" src="https://github.com/user-attachments/assets/7382cea3-1768-4800-ad85-b0126a85d819" /> | <img width="817" height="896" alt="Batch Testing" src="https://github.com/user-attachments/assets/0d6959af-6341-4540-bdef-db14de55b25a" /> |
+| <img width="1300" height="850" alt="Single Image Retrieval" src="https://github.com/user-attachments/assets/7382cea3-1768-4800-ad85-b0126a85d819" /> | <img width="900" height="1000" alt="Batch Testing" src="https://github.com/user-attachments/assets/0d6959af-6341-4540-bdef-db14de55b25a" /> |
 
 | Precision/Recall Output |
 |-------------------------|
-| <img width="560" height="856" alt="Precision and Recall Output" src="https://github.com/user-attachments/assets/7bd51ad1-ec97-4191-bba4-0b298905cb85" /> |
+| <img width="500" height="684" alt="Precision and Recall Output" src="https://github.com/user-attachments/assets/7bd51ad1-ec97-4191-bba4-0b298905cb85" /> |
 
 
 ## Academic Context
