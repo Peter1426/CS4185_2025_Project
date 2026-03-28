@@ -114,6 +114,12 @@ Program/
 - Shows matched categories and scores for each query
 - Displays correct match counts for both systems
 
+## ⚠️ IMPORTANT NOTES:
+- **First run of Deep Learning System:** Will take 2-5 minutes to build the FAISS index (extracting features from 1,000 images)
+- **Subsequent runs:** Loads saved index instantly for fast retrieval
+- **FAISS Index Location:** Saved in `/source/faiss_index/` - delete to rebuild
+- **Memory:** Deep learning system requires ~500MB RAM for the index
+
 ---
 
 ## TECHNICAL DETAILS
@@ -135,20 +141,25 @@ Program/
 - **Default Threshold:** 0.01
 
 ---
+## Sample Results
 
-| Single Image Retrieval | Batch Testing |
+### Single Image Retrieval
+| V1 | V2 |
 |------------------------|---------------|
-| <img width="1300" height="850" alt="Single Image Retrieval" src="https://github.com/user-attachments/assets/7382cea3-1768-4800-ad85-b0126a85d819" /> | <img width="900" height="1000" alt="Batch Testing" src="https://github.com/user-attachments/assets/0d6959af-6341-4540-bdef-db14de55b25a" /> |
+| <img width="1300" height="850" alt="Single Image Retrieval v1" src="https://github.com/user-attachments/assets/7382cea3-1768-4800-ad85-b0126a85d819" /> | <img width="1400" height="950" alt="Single Image Retrieval v2" src="https://github.com/Peter1426/CS4185_2025_Project/blob/main/screenshots/Single%20Image%20Retrieval%20v2.png" /> |
 
-| Precision/Recall Output |
-|-------------------------|
-| <img width="500" height="684" alt="Precision and Recall Output" src="https://github.com/user-attachments/assets/7bd51ad1-ec97-4191-bba4-0b298905cb85" /> |
+### Batch Testing
+| V1 | V2 |
+|------------------------|---------------|
+| <img width="900" height="1000" alt="Batch Testing v1" src="https://github.com/user-attachments/assets/0d6959af-6341-4540-bdef-db14de55b25a" /> | <img width="800" height="900" alt="Batch Testing v1" src="https://github.com/Peter1426/CS4185_2025_Project/blob/main/screenshots/Batch%20Testing%20v2.png" /> |
 
-## ⚠️ IMPORTANT NOTES:
-- **First run of Deep Learning System:** Will take 2-5 minutes to build the FAISS index (extracting features from 1,000 images)
-- **Subsequent runs:** Loads saved index instantly for fast retrieval
-- **FAISS Index Location:** Saved in `/source/faiss_index/` - delete to rebuild
-- **Memory:** Deep learning system requires ~500MB RAM for the index
+### Precision/Recall Output
+| V1 | V2 |
+|-------------------------|-------------------------|
+| <img width="400" height="584" alt="Precision and Recall Output v1" src="https://github.com/user-attachments/assets/7bd51ad1-ec97-4191-bba4-0b298905cb85" /> | <img width="500" height="684" alt="Precision and Recall Output v2" src="https://github.com/Peter1426/CS4185_2025_Project/blob/main/screenshots/Precision%20and%20Recall%20Output%20v2.png" />
+
+### Compare Result
+<img width="500" height="500" alt="Precision and Recall Output v1" src="https://github.com/Peter1426/CS4185_2025_Project/blob/main/screenshots/Compare%20Result.png" />
 
 ---
 
@@ -160,7 +171,6 @@ Program/
 - **Numerical Computing:** NumPy 1.24.3
 - **Image Processing:** Pillow
 - **Environment:** Cross-platform (Windows/macOS via batch/shell scripts
-## Sample Results
 
 ---
 
