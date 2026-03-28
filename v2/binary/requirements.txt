@@ -1,0 +1,5 @@
+opencv-python==4.6.0.66
+numpy==1.24.3
+pillow
+tensorflow
+faiss-cpu
