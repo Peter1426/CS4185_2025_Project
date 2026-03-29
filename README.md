@@ -170,7 +170,7 @@ Program/
 - **Similarity Search:** FAISS (Facebook AI Similarity Search)
 - **Numerical Computing:** NumPy 1.24.3
 - **Image Processing:** Pillow
-- **Environment:** Cross-platform (Windows/macOS via batch/shell scripts
+- **Environment:** Cross-platform (Windows/macOS via batch/shell scripts)
 
 ---
 
